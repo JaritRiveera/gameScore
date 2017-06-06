@@ -1,9 +1,9 @@
 
 class Generador:
-    def generadorTituloParrafo(self, tirulo, parrafo):
+    def generadorTituloParrafo(self, titulo, parrafo):
         titulo = "<h1 >" + titulo + "</h1>"
-        parrafo = "<p>" + parrado + "</p>"
-        return tirulo + parrafo
+        parrafo = "<p>" + parrafo + "</p>"
+        return titulo + parrafo
 
     def generadorLista(self,Lista):
         codigo =""
@@ -11,12 +11,18 @@ class Generador:
             codigo = codigo + "<li >" + i + "</li>"
         return "<ol>" + codigo + "</ol>"
 
-    def generadorTabla(self, listaTabla):
+    def generarImagenHTML(self):
+        return "<img src=static/img/juan.png ></img>"
+
+    def generadorTabla(self, csvFile):
         tabla = ""
         td = ""
-        for i in listaTabla:
+        for i in csvFile:
             tr1 = "<tr>"
-            for j in i.split(","):
+            infoJugadores =i.split(",")
+            infoJugadores.append("<img src=\"static/img/"+infoJugadores[0]+".png\"></img>")
+            for j in infoJugadores:
+
                 td = td + "<td >" + j + "</td>"
             tr2 = "</tr>"
 
