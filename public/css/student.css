@@ -1,11 +1,18 @@
+table {
+    width:100%;
+}
+table td {
+    background-color: white ;
+    color: Black;
+}
 td, th {
-    border: 2px solid #000;
+    border: 3px solid black;
     text-align: center;
     padding: 10px;
-	font-family:serif;
+	font-family:Bradley Hand ITC;
 	font-size:16px;
 }
-s
+
 tr:nth-child(even) {
     background-color: #FFF
 }
