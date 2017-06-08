@@ -1,6 +1,7 @@
 <style>
   table {
     border-collapse: collapse;
+    font-family:Bradley Hand ITC;
   }
   td {
     border: 3px solid orangered;
@@ -8,6 +9,9 @@
   th, td {
     padding: 20px;
     text-align: center;
+    font-family:Bradley Hand ITC;
+    font-size:20px;
+    color: black;
   }
   tr:nth-child(even) {
     background-color: #eee;
