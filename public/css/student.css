@@ -1,18 +1,18 @@
-table {
-    width:100%;
-}
-table td {
-    background-color: white ;
-    color: Black;
-}
-td, th {
-    border: 3px solid black;
+<style>
+  table {
+    border-collapse: collapse;
+  }
+  td {
+    border: 3px solid orangered;
+  }
+  th, td {
+    padding: 20px;
     text-align: center;
-    padding: 10px;
-	font-family:Bradley Hand ITC;
-	font-size:16px;
-}
-
-tr:nth-child(even) {
-    background-color: #FFF
-}
+  }
+  tr:nth-child(even) {
+    background-color: #eee;
+  }
+  tr:nth-child(odd) {
+    background-color: khaki;
+  }
+</style>
