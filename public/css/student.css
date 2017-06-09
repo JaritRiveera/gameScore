@@ -1,22 +1,21 @@
-<style>
-  table {
-    border-collapse: collapse;
-    font-family:Bradley Hand ITC;
-  }
-  td {
-    border: 3px solid orangered;
-  }
-  th, td {
-    padding: 20px;
-    text-align: center;
-    font-family:Bradley Hand ITC;
-    font-size:20px;
-    color: black;
-  }
-  tr:nth-child(even) {
-    background-color: #eee;
-  }
-  tr:nth-child(odd) {
-    background-color: khaki;
-  }
-</style>
+table {
+	width: 100%;
+}
+
+th {
+	height: 50px;
+	text-align: center;
+	background-color: #191970;
+	color: white;
+}
+td {
+	text-align: center;
+	padding: 15px
+
+}
+th, td {
+	border-bottom: 1px solid #ddd;
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2
+}
